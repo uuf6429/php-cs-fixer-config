@@ -34,9 +34,9 @@ final class Minor
             ));
         }
 
-        if (99 < $value) {
+        if (9 < $value) {
             throw new \InvalidArgumentException(\sprintf(
-                'Value needs to be a less than or equal to 99, but %d is not.',
+                'Value needs to be a less than or equal to 9, but %d is not.',
                 $value,
             ));
         }

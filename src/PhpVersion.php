@@ -98,7 +98,7 @@ final class PhpVersion
 
     public function toInt(): int
     {
-        return $this->major->toInt() * 10_000 + $this->minor->toInt() * 100 + $this->patch->toInt();
+        return $this->major->toInt() * 1000 + $this->minor->toInt() * 100 + $this->patch->toInt();
     }
 
     public function toString(): string
